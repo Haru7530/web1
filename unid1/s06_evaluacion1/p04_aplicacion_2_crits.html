@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/estilosEval1.css">
+	<script src="js/arrayAlumnos.js"></script>
+	<script src="js/form04funciones.js"></script>
+</head>
+<body>
+<div id="content">
+	<form action="p00_validada.php" method="post" >
+	<table>
+		<tr>
+			<th colspan="2" class="titulo">Aplicación 4 - Lista con dos criterios</th>
+		</tr>
+		<tr>
+			<td id="tdIzq">Seleccione turno:</td>
+			<td id="tdDer">
+				<select >
+					<option value="">Seleccione...</option>
+					<option value="M">Turno día</option>
+					<option value="N">Turno noche</option>
+					<option value="T">Tarde</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td id="tdIzq">Seleccione Género:</td>
+			<td id="tdDer">
+				<select >
+					<option value="">Seleccione...</option>
+					<option value="M">Masculino</option>
+					<option value="F">Femenino</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2"><div name="marco" id="marco">Resultado aqui...</div></td>
+		</tr>
+		<th colspan="2" class="subTitulo">
+			<input class="boton" type="reset" name="btnVer" onclick="borrarMarco();" value="Borrar">
+		</th>
+		
+	</table>
+	</form>
+</div>
+</body>
+</html>
+
+
+
+<table>
+	<tr>
+<!--		<td colspan="3">columna1</td>-->
+		<td>columna1</td>
+		<td>columna2</td>
+<!--		<td>columna3</td>-->
+		<td rowspan='3'>columna3 <img src='img/f1.jpg'</td>=> 'img/f${orden}.jpg'
+	</tr>
+
+	<tr>
+		<td>columna1</td>
+		<td>columna2</td>
+		<td>columna3</td>
+	
+	</tr>
+	<tr>
+		<td>columna1</td>
+		<td>columna2</td>
+		<td>columna3</td>
+	
+	</tr>
+	</table>
